@@ -4,7 +4,7 @@
 
 > Hello World : [https://golang.org/doc/tutorial/getting-started](https://golang.org/doc/tutorial/getting-started)
 
-> Greetings : [https://go.dev/doc/tutorial/create-module](hhttps://go.dev/doc/tutorial/create-module)
+> Greetings : [https://go.dev/doc/tutorial/create-module](https://go.dev/doc/tutorial/create-module)
 
 > Hello Greetings : [https://go.dev/doc/tutorial/call-module-code](https://go.dev/doc/tutorial/call-module-code)
 
