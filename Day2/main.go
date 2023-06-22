@@ -42,9 +42,6 @@ func main() {
 	var leftOrRight = left || right
 	var leftReverse = !left
 
-
-
-
 	fmt.Printf("Hello %s %s!\n", firstName, lastName)
 	fmt.Printf("Hello %s %s %s!\n", first, second, third)
 	fmt.Printf("Positive Number: %d\n", positiveNumber)
