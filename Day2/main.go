@@ -32,5 +32,5 @@ func main() {
 	fmt.Printf("Decimal Number: %.3f\n", decimalNumber)
 	fmt.Printf("Exist: %t\n", exist)
 	fmt.Printf("Message: %s\n", message)
-	fmt.Print("Hello " , namaDepan , "!\n", "Nice to meet you " , namaBelakang , "!\n")
+	fmt.Print("Hello ", namaDepan, "!\n", "Nice to meet you ", namaBelakang, "!\n")
 }
