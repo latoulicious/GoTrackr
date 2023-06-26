@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 
-var point = 10
+	var point = 10
 
-if point == 10 {
+	if point == 10 {
 		fmt.Println("Perfect")
 	} else if point > 5 {
 		fmt.Println("Awesome")
@@ -16,7 +16,7 @@ if point == 10 {
 		fmt.Printf("You're Failed. your grade is %d\n", point)
 	}
 
-var point2 = 9420.0
+	var point2 = 9420.0
 
 	if percent := point2 / 100; percent >= 100 {
 		fmt.Printf("%.1f%s perfect!\n", percent, "%")
@@ -26,7 +26,7 @@ var point2 = 9420.0
 		fmt.Printf("%.1f%s not bad\n", percent, "%")
 	}
 
-var point3 = 8
+	var point3 = 8
 
 	switch point3 {
 	case 8:
@@ -37,7 +37,7 @@ var point3 = 8
 		fmt.Println("Not Bad")
 	}
 
-var point4 = 6
+	var point4 = 6
 
 	switch point4 {
 	case 8:
@@ -48,52 +48,52 @@ var point4 = 6
 		fmt.Println("Not Bad")
 	}
 
-var point5 = 6
+	var point5 = 6
 
 	switch point5 {
-		case 8:
-			fmt.Println("Perfect")
-		case 7, 6, 5, 4:
-			fmt.Println("Awesome")
-		default:
-			{
-				fmt.Println("Not Bad")
-				fmt.Println("You can be better!")
-			}
+	case 8:
+		fmt.Println("Perfect")
+	case 7, 6, 5, 4:
+		fmt.Println("Awesome")
+	default:
+		{
+			fmt.Println("Not Bad")
+			fmt.Println("You can be better!")
+		}
 	}
 
-var point6 = 2
+	var point6 = 2
 
 	switch {
 	case point6 == 8:
-			fmt.Println("Perfect")
-		case (point6 < 8) && (point6 > 3):
-			fmt.Println("Awesome")
-		default:
-			{
-				fmt.Println("Not Bad")
-				fmt.Println("You can be better!")
-			}
+		fmt.Println("Perfect")
+	case (point6 < 8) && (point6 > 3):
+		fmt.Println("Awesome")
+	default:
+		{
+			fmt.Println("Not Bad")
+			fmt.Println("You can be better!")
+		}
 	}
 
-var point7 = 3
+	var point7 = 3
 
 	switch {
-		case point7 == 8:
-			fmt.Println("Perfect")
-		case (point7 < 8) && (point7 > 3):
-			fmt.Println("Awesome")
-			fallthrough
-		case point7 < 5:
-			fmt.Println("You need to learn more")
-		default:
-			{
-				fmt.Println("Not Bad")
-				fmt.Println("You can be better!")
-			}
+	case point7 == 8:
+		fmt.Println("Perfect")
+	case (point7 < 8) && (point7 > 3):
+		fmt.Println("Awesome")
+		fallthrough
+	case point7 < 5:
+		fmt.Println("You need to learn more")
+	default:
+		{
+			fmt.Println("Not Bad")
+			fmt.Println("You can be better!")
+		}
 	}
 
-var point8 = 2
+	var point8 = 2
 
 	if point8 > 7 {
 		switch point {
