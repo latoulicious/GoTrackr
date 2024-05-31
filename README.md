@@ -1,5 +1,6 @@
 # GoTrackr
 
->My personal repository for archiving my journey through 100 days of leetcode
 
-[!image](https://i.ibb.co.com/MsGByLy/golangheader.png)
+![image](https://i.ibb.co.com/MsGByLy/golangheader.png)
+
+>My personal repository for archiving my journey grinding in leetcode
