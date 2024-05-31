@@ -1,4 +1,4 @@
-package day1
+package twosum
 
 import (
 	"reflect"

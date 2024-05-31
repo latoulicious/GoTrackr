@@ -1,4 +1,4 @@
-package day1
+package twosum
 
 func TwoSum(nums []int, target int) []int {
 	hashMap := make(map[int]int)
